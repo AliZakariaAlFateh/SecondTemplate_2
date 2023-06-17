@@ -1,0 +1,47 @@
+/*  the color #00ff1d Green Color */
+
+/*   we are using the groups to make the main color   */
+
+/* the main color in this file is Blue  or SkyBlue */
+
+
+/*  the group border */
+.Option-Box .Option-Color,
+.testimonial .carousel-indicators li.active{
+
+    border: 2px solid #00ff1d;
+
+}
+
+.dropdown-menu{
+    border-top: solid#00ff1d 2px;
+}
+
+/*  the group background-color */
+.gear-check,
+.Option-Box .Option-Color ul li,
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-nav .dropdown-menu > li > a:hover,
+.navbar-nav .dropdown-menu > li > a:focus,
+.dropdown-menu .divider,
+.carousel-indicators .active,
+.navbar-toggle,
+#Scroll-Top{
+    background-color:#00ff1d;
+}
+
+
+/*  the group color */
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.features .description h3,
+.testimonial .carousel-inner .item span,
+.footer h3,
+.footer .copy_right span{
+    color:#00ff1d
+    }
+
+
+    /*  the color #00ff1d Orange Color */

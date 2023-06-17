@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+      Desined-By-Me
+      I'm - Eng \ Ali AlGuhny
+      My-Template
+      2023
+      Here I used Pootstrap 3 to make this site responsive 
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Bootstrap Examlpes</title> -->
+    <!-- <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"> -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-6-square-fill" viewBox="0 0 16 16">
+      <path d="M8.111 7.863c-.92 0-1.564.65-1.564 1.576 0 1.032.703 1.635 1.558 1.635.868 0 1.553-.533 1.553-1.629 0-1.06-.744-1.582-1.547-1.582Z"/>
+      <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm6.21 3.855c1.612 0 2.515.99 2.573 1.899H9.494c-.1-.358-.51-.815-1.312-.815-1.078 0-1.817 1.09-1.805 3.036h.082c.229-.545.855-1.155 1.98-1.155 1.254 0 2.508.88 2.508 2.555 0 1.77-1.218 2.783-2.847 2.783-.932 0-1.84-.328-2.409-1.254-.369-.603-.597-1.459-.597-2.642 0-3.012 1.248-4.407 3.117-4.407Z"/>
+    </svg> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    
+
+
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/Style_Project.css">
+    <link rel="stylesheet" href="CSS/Media.css">
+    <link rel="stylesheet" href="CSS/Defualt-Them.css">
+    <!--  use this file if you want to convert the site right to left -->
+    <!-- <link rel="stylesheet" href="CSS/Bootstrap_rtl.css"> -->
+    <!-- to use file hover acctually exixts to use it's classes this is save alot of time for you -->
+    <!--  class :pop ,skew ,grow-rotate and more etc....... -->
+    <link rel="stylesheet" href="CSS/hover.css">
+    <!-- <link rel="stylesheet" href="CSS/Blue-Them.css"> -->
+    <!-- <link rel="stylesheet" href="CSS/Mauve-Them.css">  -->
+    <!-- <link rel="stylesheet" href="CSS/Orange-Them.css"> -->
+    <!-- <link rel="stylesheet" href="CSS/Green-Them.css"> -->
+</head>
+<body>
+    <!--container-flauid
+        used container to make the site respose
+        used flauid to full the screen
+    -->
+    <!-- الفيوم موقف سنهور  -->
+    <!--  Satrt Section  Box For Change Color or Mode-->
+    <!--  Option Box For Change Color or Mode-->
+    <!--  The Data Value is the custom ar=ttribute i maeke it by my self to use it in JQuery-->
+    <section class="Option-Box">
+      <div class="Option-Color">
+        <h4>Color Option</h4>
+        <ul class="list-unstyled">
+          <li Data-Value="CSS/Defualt-Them.css"></li>
+          <li Data-Value="CSS/Green-Them.css"></li>
+          <li Data-Value="CSS/Blue-Them.css"></li>
+          <li Data-Value="CSS/Orange-Them.css"></li>
+        </ul>
+      </div>
+      <i class="fa fa-gear fa-3x gear-check"></i>
+    </section>
+    <!--  Satrt Section  Box For Change Color or Mode-->
+
+
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+        <!-- <div class="container-fluid"> -->
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#OurNav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand hvr-pop" href="#">AlGuhny <span>Eng.</span></a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="OurNav">
+            <ul class="nav navbar-nav navbar-right" id="MoveSections">
+              <li class="active"><a href="#">Home <!--<span class="sr-only">(current)</span>--></a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="About.html">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Programming</a></li>
+                  <li><a href="#">Web Design</a></li>
+                  <li><a href="#">IOS Design</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Android Development</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Desktop Design</a></li>
+                </ul>
+
+              </li>
+              <li><a href="#">ContactUs</a></li>
+              <li><a href="#">Map</a></li>
+            </ul>
+
+            <!-- <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form> -->
+
+            <!-- <ul class="nav navbar-nav navbar-right">
+              <li ><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul> -->
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <!-- End Navbar-->
+      
+      <!-- Start carsoul-->                         <!--                Carousel                 -->
+  
+       <section class="Carousel_Section" id="Home"><!-- <section class="Carousel_Section hidden-xs"> -->
+        
+          <div id="myCarousel" class="carousel slide Modified" data-ride="carousel">
+            <!-- Indicators --><!--  hide the indicators in xs Screen-->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item ">
+                <img src="Images/LandScap/LandScap0.jpg" alt="Los Angeles" class="img-responsive">
+                <!--  hide the caption in xs Screen-->
+                <div class="carousel-caption hidden-xs">
+                  <h2 class="h1">Programming</h2>
+                  <p class="lead">
+                    Recalculates the state of the affix based on the dimensions, position, and scroll position of the relevant elements. The .affix, .affix-top, and .affix-bottom classes are added to or removed from the affixed content according to the new state. This method needs to be called whenever the dimensions of the affixed content or the target element are changed, to ensure correct positioning of the affixed content.
+                  </p>
+                  <div class="btn btn-primary">Read-More</div>
+                  <div class="btn btn-success">Buy-Now</div>
+                </div>
+              </div>
+        
+              <div class="item active">
+                <img src="Images/LandScap/LandScap5.jpg" alt="Chicago" class="img-responsive">
+                <!--  hide the caption in xs Screen-->
+                <div class="carousel-caption hidden-xs">
+                  <h2 class="h1">WebDesign</h2 class="h1">
+                  <p class="lead">
+                    Recalculates the state of the affix based on the dimensions, position, and scroll position of the relevant elements. The .affix, .affix-top, and .affix-bottom classes are added to or removed from the affixed content according to the new state. This method needs to be called whenever the dimensions of the affixed content or the target element are changed, to ensure correct positioning of the affixed content.
+                  </p>
+                  <div class="btn btn-primary">Read-More</div>
+                  <div class="btn btn-success">Buy-Now</div>
+                </div>
+              </div>
+            
+              <div class="item">
+                <img src="Images/LandScap/LandScap4.jpg" alt="New york" class="img-responsive">
+                <!--  hide the caption in xs Screen-->
+                <div class="carousel-caption hidden-xs">
+                  <h2 class="h1">DeskTop</h2>
+                  <p class="lead">
+                     Recalculates the state of the affix based on the dimensions,
+                     position, and scroll position of the relevant elements. The .affix,
+                    .affix-top,
+                    and .affix-bottom classes are added to or removed from
+                    the affixed content according to the new state. This method 
+                    needs to be called whenever the dimensions of the affixed content 
+                    or the target element are changed, to ensure correct positioning
+                    of the affixed content.
+                  </p>
+                  <div class="btn btn-primary">Read-More</div>
+                  <div class="btn btn-success">Buy-Now</div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+       </section>      
+
+
+      <!-- End carsoul-->
+     
+
+
+      <!-- Start Section About-->         <!--                About                 -->
+      <section class="about text-center" id="About">
+        <div class="container">
+          <h1>Hell in Our Site I'm <span>Eng</span> Ali Al Guhny</h1>
+          <p class="lead">
+            This Site provies multy services about mobile phone ,
+            Like Selling, buying, replacing, and also <strong>maintaining</strong>  mobile 
+            phones and installing a protective screen.
+          </p>
+        </div>
+      </section>
+      <!-- Start Section About-->
+
+
+
+      <!-- Start Section Features-->           <!--                Features                 -->
+      <section class="features text-center" id="Company">
+        
+        <div class="container">
+          <h2 class="h1">Our Features</h2>
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="description">
+                <span class="glyphicon glyphicon-cog"></span>
+                <h3>The maintaining</h3>
+                <p class="lead">
+                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="description">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+                <h3>Seeling-Buying</h3>
+                <p class="lead">
+                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="description">
+                <span class="glyphicon glyphicon-transfer"></span>
+                <h3>Exchange</h3>
+                <p class="lead">
+                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="description">
+                <span class="glyphicon glyphicon-thumbs-up"></span>
+                <h3>Sales_Phones</h3>
+                <p class="lead">
+                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                </p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </section>
+      <!-- End Section Features-->
+
+
+      <!-- Start Section Testimonial -->          <!--            Testimonial                   -->
+      <section class="testimonial text-center" id="Testimonials">
+
+          <div class="container">
+              <h2 class="h1">What clients say about us !!!!!!</h2>
+                <!-- Testimonial-Carousel -->
+
+
+              <div id="Testimonial-Carousel" class="carousel slide" data-ride="carousel">
+
+            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <p class="lead">
+                      Recalculates the state of the affix based on the dimensions, position, and scroll position of the relevant elements. The .affix, .affix-top, and .affix-bottom classes are added to or removed from the affixed content according to the new state. This method needs to be called whenever the dimensions of the affixed content or the target element are changed, to ensure correct positioning of the affixed content.
+                    </p>
+                    <span class="ClientName">
+                      Esslam
+                    </span>
+                  </div>
+            
+                  <div class="item">
+                    <p class="lead">
+                      Recalculates the state of the affix based on the dimensions, position, and scroll position of the relevant elements. The .affix, .affix-top, and .affix-bottom classes are added to or removed from the affixed content according to the new state. This method needs to be called whenever the dimensions of the affixed content or the target element are changed, to ensure correct positioning of the affixed content.
+                    </p>
+                    <span class="ClientName">
+                      Mohamed
+                    </span>
+                  </div>
+                
+                  <div class="item ">
+                    <p class="lead">
+                      Recalculates the state of the affix based on the dimensions, position, and scroll position of the relevant elements. The .affix, .affix-top, and .affix-bottom classes are added to or removed from the affixed content according to the new state. This method needs to be called whenever the dimensions of the affixed content or the target element are changed, to ensure correct positioning of the affixed content.
+                    </p>
+                    <span class="ClientName">
+                      Ahmed
+                    </span>
+                  </div>
+                </div>
+                <!-- Indicators --><!--  hide the indicators in xs Screen-->
+                <ol class="carousel-indicators">
+                  <li data-target="#Testimonial-Carousel" data-slide-to="0" class="active">
+                    <img src="Images/Avatar/images1.jpg"alt="Esslam">
+                  </li>
+                  <li data-target="#Testimonial-Carousel" data-slide-to="1">
+                    <img src="Images/Avatar/images2.png"alt="Mohamed">
+                  </li>
+                  <li data-target="#Testimonial-Carousel" data-slide-to="2">
+                    <img src="Images/Avatar/images3.png"alt="Ahmed">
+                  </li>
+                </ol>
+              </div>
+          </div>
+
+      </section>
+
+      <!-- End  SectionTestimonial -->
+
+
+
+      <!-- Start  ProductPrice -->                                 <!--            ProductPrice                   -->
+      <!--  in this section we use the grid system because we add products in the section-->
+      <section class="price_table text-center" id="ProductPrices">
+
+        <div class="container">
+          <h2 class="h1">Amazing Product's Price</h2>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="price_box">
+                <h3 class="text-primary">product price one</h3>
+                <p class="center-block">
+                  $55
+                </p>
+                <ul class="list-unstyled">
+                  <li>128 Gb</li>
+                  <li>Chargaer 33w</li>
+                  <li>Ram 6 Gb</li>
+                  <li>Android 13</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Order_Now</a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="price_box">
+                <h3 class="text-success">product price two</h3>
+                <p class="center-block">
+                  $55
+                </p>
+                <ul class="list-unstyled">
+                  <li>128 Gb</li>
+                  <li>Chargaer 33w</li>
+                  <li>Ram 6 Gb</li>
+                  <li>Android 13</li>
+                </ul>
+                <a href="#" class="btn btn-success">Order_Now</a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="price_box">
+                <h3 class="text-danger">product price three</h3>
+                <p class="center-block">
+                  $55
+                </p>
+                <ul class="list-unstyled">
+                  <li>128 Gb</li>
+                  <li>Chargaer 33w</li>
+                  <li>Ram 6 Gb</li>
+                  <li>Android 13</li>
+                </ul>
+                <a href="#" class="btn btn-danger">Order_Now</a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="price_box">
+                <h3 class="text-info">product price four</h3>
+                <p class="center-block">
+                  $55
+                </p>
+                <ul class="list-unstyled">
+                  <li>128 Gb</li>
+                  <li>Chargaer 33w</li>
+                  <li>Ram 6 Gb</li>
+                  <li>Android 13</li>
+                </ul>
+                <a href="#" class="btn btn-info">Order_Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+ 
+      </section>
+
+
+      <!-- End  ProductPrice -->
+
+      <!-- Start our team section     -->         <!--                    Our_Team                   -->
+
+      <section class="our_team text-center" id="OurTeam">
+        <div class="team">
+            <div class="container">
+              <h2 class="h1">Our Team</h2>
+              <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="person">
+                    <img src="Images/GoodPlayers/Mohamed-Salah.jpg" alt="Mohamed-Salah" class="img-circle">
+                    <h3>Player Name</h3>
+                    <!-- He is the flying winger, sniper, scorer, talented player, and -->
+                    <p> one of the fastest players in the world, never before seen in Egyptian football.</p>
+                   
+                    <i class="fa fa-google-plus-square fa-2x"></i>
+                    <i class="fa fa-facebook-square fa-2x"></i>
+                    <i class="fa fa-twitter-square fa-2x"></i>
+                    <i class="fa fa-instagram fa-2x"></i>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="person">
+                    <img src="Images/GoodPlayers/Hakiem-Ziash.jpg" alt="Hakiem-Ziash" class="img-circle">
+                    <h3>Player Name</h3>
+                    <p>One of the best players in the world as a focal point and excellent in scoring sense</p>
+                    
+                    <i class="fa fa-google-plus-square fa-2x"></i>
+                    <i class="fa fa-facebook-square fa-2x"></i>
+                    <i class="fa fa-twitter-square fa-2x"></i>
+                    <i class="fa fa-instagram fa-2x"></i>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="person">
+                    <img src="Images/GoodPlayers/Kariem-Benzima.jpg" alt="Kariem-Benzima" class="img-circle">
+                    <h3>Player Name</h3>
+                    <p>A scorer, sniper, and maestro of football in Real Madrid, he is my favorite player.</p>
+                    
+                    <i class="fa fa-google-plus-square fa-2x"></i>
+                    <i class="fa fa-facebook-square fa-2x"></i>
+                    <i class="fa fa-twitter-square fa-2x"></i>
+                    <i class="fa fa-instagram fa-2x"></i>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="person">
+                    <img src="Images/GoodPlayers/Frank-Ribery.jpg" alt="Frank-Ribery" class="img-circle">
+                    <h3>Player Name</h3>
+                    <p>One of the fastest soccer players in the world and an indispensable fulcrum player</p>
+    
+                    <i class="fa fa-google-plus-square fa-2x"></i>
+                    <i class="fa fa-facebook-square fa-2x"></i>
+                    <i class="fa fa-twitter-square fa-2x"></i>
+                    <i class="fa fa-instagram fa-2x"></i>
+                  </div>
+                </div>   
+              </div>
+            </div>
+        </div>
+      </section>
+      
+      <!-- Start subscrib section     -->      <!--                    subscribe                   -->
+      <section class="subscrib text-center" id="Subscribe">
+              <h2 class="h1">You Can Subscrib in our Features</h2>
+              <p class="lead">Don't worry your email don't show to any one</p>
+              <form action="#" class="form-inline">
+                  <input type="text" class="form-control input-lg" placeholder="Type your email">
+                  <button class="btn btn-danger btn-lg"><i class="fa fa-edit fa-lg"></i> Subscrib</button>
+
+              </form>
+      </section>
+      <!-- End  subscrib section     -->
+
+
+
+      <!-- Start our statistics section     -->     <!--                    Statistics                   -->
+
+      <section class="statistics text-center" id="Services">
+        <div class="Data">
+          <div class="container">
+            <h2 class="h1">Our Main Clients</h2>
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                
+                <div class="stats">
+                  <i class="fa fa-users fa-5x"></i>
+                  <p>9.432</p>
+                  <span>Satisfied Users</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                
+                <div class="stats">
+                  <i class="fa fa-comments fa-5x"></i>
+                  <p>9.432</p>
+                  <span>Comment Posted Users</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                
+                <div class="stats">
+                  <i class="fa fa-suitcase fa-5x"></i>
+                  <p>9.432</p>
+                  <span>Project Done</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                
+                <div class="stats">
+                  <i class="fa fa-support fa-5x"></i>
+                  <p>9.432</p>
+                  <span>Tickets Archived</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End our statistics section     -->
+
+
+     <!-- Start our Our Skills section     -->      <!--                     Our Skills                   -->
+
+     <section class="OurSkills" id="OurSkills">
+      <div class="container">
+        <h2 class="h1" class="text-center">Our Skills</h2>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="progress">
+              <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="80" aria-minvalue="0" aria-valuemax="100" style="width:95%">
+                Java Script
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="80" aria-minvalue="0" aria-valuemax="100" style="width:90%">
+                jquery
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-minvalue="0" aria-valuemax="100" style="width:80%">
+                Bootstrap
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="80" aria-minvalue="0" aria-valuemax="100" style="width:75%">
+                React
+              </div>
+            </div>
+
+          </div>
+
+          <!-- this dive shifft one col from left -->
+          <div class="col-md-6 col-md-offset-1">
+            <div class="skills">
+              <h3>About The team</h3>
+              <p class="lead">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+              </p>
+              <button type="button"class="btn btn-primary" >Talk With A Professional</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- End our Our Skills section     -->
+
+
+     <!-- Strat Contact us section     -->        <!--                    Contact us                   -->
+     <section class="ContactUs text-center" id="ContactUs">
+        <div class="Fields">
+
+          <div class="container">
+            <div class="row">
+              <i class="fa fa-headphones fa-5x"></i>
+              <h2 class="h1">Contact Us</h2>
+              <p class="lead">
+                Tell Us what is your Opinion , and you email don't show to any one
+              </p>
+              <form action="#" role="form">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control input-lg" placeholder="User name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control input-lg" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control input-lg" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <!-- <textarea name="TextArea" id="blablabla" cols="" rows="" class="form-control" placeholder="Your Message"></textarea> -->
+                      <textarea name="TextArea" id="blablabla" class="form-control" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <button class="btn btn-danger btn-lg btn-block">Contact_Us</button>
+                    </div>
+                  </div>
+              </form>
+              
+            </div>
+            
+          </div>
+        </div>
+     </section>
+     
+
+
+
+     <!-- End Contact us section     -->
+
+
+      <!-- Start Clients  section     -->    <!--                    Clients                  -->
+      <section class="our-clients" id="OurClients">
+        <div class="container">
+          <div class="row">
+            <h2 class="h1" class="text-center">Our Clients</h2>
+            <ul class="list-unstyled">
+              <li class="col-md-4 col-xs-6"><img src="Images/Clients/Messi.jpg" alt="Client1" class="img-responsive center-block"></li>
+              <li class="col-md-4 col-xs-6"><img src="Images/Clients/Cr7.jpg" alt="Client2" class="img-responsive center-block"></li>
+              <li class="col-md-4 col-xs-6"><img src="Images/Clients/Torres.jpg" alt="Client3" class="img-responsive center-block"></li>
+              <li class="col-md-4 col-xs-6"><img src="Images/Clients/Leva.jpg" alt="Client4" class="img-responsive center-block"></li>
+              <li class="col-md-4 col-xs-6"><img src="Images/Clients/Nadal_1.jpg" alt="Client5" class="img-responsive center-block"></li>
+              <li class="col-md-4 col-xs-6"><img src="Images/Clients/Fedrer.jpg" alt="Client6" class="img-responsive center-block"></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Start Clients  section     -->
+
+      <!-- Start Footer  section     -->    <!--                    Footer                  -->
+      <section class="footer" id="Map">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <h3>SiteMap</h3>
+              <ul class="list-unstyled list-titles">
+                <li>Home</li>
+                <li>About</li>
+                <li>Company</li>
+                <li>Services</li>
+                <li>Maintaining</li>
+                <li>Contact</li>
+              </ul>
+              <ul class="list-unstyled list-Socila">
+                <li><img src="Images/Icons/Facebook.png" alt="Facebook"></li>
+                <li><img src="Images/Icons/Instgrams.png" alt="Facebook"></li>
+                <li><img src="Images/Icons/Printerest.png" alt="Facebook"></li>
+                <li><img src="Images/Icons/Whatsapp.png" alt="Facebook"></li>
+                <li><img src="Images/Icons/Youtube.png" alt="Facebook"></li>
+                <li><img src="Images/Icons/WordPress.png" alt="Facebook"></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+
+              <h3>Latest_Articles</h3>
+
+              <div class="media">
+                <div class="pull-left">
+                  <a class="" href="#" ><img src="_IMAGES/pic2_big.jpg" alt="LandScap" class="media-objec"></a>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading">The Natural</h3>
+                  The natural is the best way to belive the ablitiy of allah in the planet
+                  The natural is the best way to belive the ablitiy of allah in the planet
+                </div>
+              </div>
+
+              <div class="media">
+                <div class="pull-left">
+                  <a class="" href="#" ><img src="_IMAGES/pic2_big.jpg" alt="LandScap" class="media-objec"></a>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading">The Natural</h3>
+                  The natural is the best way to belive the ablitiy of allah in the planet
+                  
+                </div>
+              </div>
+              
+              <div class="media">
+                <div class="pull-left">
+                  <a class="" href="#" ><img src="_IMAGES/pic2_big.jpg" alt="LandScap" class="media-objec"></a>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading">The Natural</h3>
+                  The natural is the best way to belive the ablitiy of allah in the planet
+                  
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-4 FooterImage">
+              <h3>Latest_News</h3>
+              <img src="Images/Clients/150pxels/Cr7.jpg" alt="Cr7" class="img-thumbnail">
+              <img src="Images/Clients/150pxels/Degokovic.jpg" alt="Degokovic" class="img-thumbnail">
+              <img src="Images/Clients/150pxels/Fedrer.jpg" alt="Fedrer" class="img-thumbnail">
+              <img src="Images/Clients/150pxels/Torres.jpg" alt="Torres" class="img-thumbnail">
+            </div>
+          </div>
+        </div>
+        <div class="copy_right text-center">
+          Copyright &copy;2023 <span>Al Guhny Site</span>.Eng
+        </div>
+      </section>
+      <!-- Start Footer  section     -->    <!--                    Footer                  -->
+
+
+      <!-- Start Loading  section     -->    <!--                    Loading                  -->
+      <section class="Loading_page">
+        <div class="sk-cube-grid">
+          <div class="sk-cube sk-cube1"></div>
+          <div class="sk-cube sk-cube2"></div>
+          <div class="sk-cube sk-cube3"></div>
+          <div class="sk-cube sk-cube4"></div>
+          <div class="sk-cube sk-cube5"></div>
+          <div class="sk-cube sk-cube6"></div>
+          <div class="sk-cube sk-cube7"></div>
+          <div class="sk-cube sk-cube8"></div>
+          <div class="sk-cube sk-cube9"></div>
+        </div>
+      </section>
+      <!-- Start Loading  section     -->    <!--                    Loading                  -->
+     
+       <!-- Start Scroll Top  div     -->    <!--                    Scroll Top                  -->
+       <div id="Scroll-Top">
+        <i class="fa fa-chevron-circle-up fa-3x" aria-hidden="true"></i>
+       </div>
+
+
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+      <script src="JS/jquery-3.5.1.min.js"></script>
+      <script src="JS/bootstrap.min.js"></script>
+      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+      
+    <!-- <script src="jquery3.2.1.min.js"></script>
+    <script src="bootstrap.min.js"></script> -->
+    <!--
+        ctrl+f(find any text or tag)
+        ctrl+h(replace any text or tag that you are found it)
+        script:src then click Enter code script
+    -->
+      <script src="JS/Plugin.js"></script>
+      <script src="JS/jquery.nicescroll.min.js"></script>
+      <!-- 
+        How to use wow function animation
+        <script src="JS/wow.min.js"></script>
+      <script>new WOW().init();</script>
+     -->
+
+      <!-- <script src="JS/Navigation_bootstrap.js"></script> -->
+</body>
+
+
+</html>
